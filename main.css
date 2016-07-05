@@ -44,3 +44,33 @@
 .row p{
   text-align:center;
 }
+
+.nd {background-color:lightgreen;}
+
+
+@media (max-width: 767px) {
+    .nd {
+        background-color:red;
+    }
+}
+@media (max-width: 480px) {
+    .nd {
+        background-color:lightblue;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .nd {
+        background-color:lightgreen;
+    }
+}
+@media (min-width: 980px) {
+   .nd {
+        background-color:orange;
+    }
+}
+@media (min-width: 1200px) {
+
+    .nd {
+        background-color:purple;
+    }
+}
